@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="vendor/bulma.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="popup.css">
+    <meta charset="UTF-8">
+    <title>Anti-Hackers (Skribble.io)</title>
+</head>
+<body>
+    <header class="hero is-primary is-small">
+        <div class="hero-body">
+            <div class="container">
+                <b>Anti-Hackers (Skribble.io)</b>
+            </div>
+        </div>
+    </header>
+    <section id="main" class="container">
+        <div class="notification">
+            No canvas was found on the page.
+        </div>
+    </section>
+    <section id="spinner" class="container">
+        <div class="spinner"></div>
+    </section>
+    <canvas id="canvas_1" width="500" height="300"></canvas>
+    <script type="text/javascript" src="vendor/chrome-extension-async.js"></script>
+    <script type="text/javascript" src="vendor/jszip.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+    <script type="text/javascript" src="ocrad.js"></script>
+</body>
+</html>
